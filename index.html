@@ -139,7 +139,41 @@
 					<section id="contact">
 						<div class="inner">
 							<section>
-								<form method="post" action="mailto:morris.kirsten.d@gmail.com">
+								<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+								    <form action="/"method="post" id="contact-form">
+								      <h2>Contact us</h2>
+								      <?php echo((!empty($errorMessage)) ? $errorMessage : '') ?>
+								      <?php echo((!empty($successMessage)) ? $successMessage : '') ?>
+								      <p>
+								        <label>First Name:</label>
+								        <input name="name" type="text" required />
+								      </p>
+								      <p>
+								        <label>Email Address:</label>
+								        <input style="cursor: pointer;" name="email" type="email" required />
+								      </p>
+								      <p>
+								        <label>Message:</label>
+								        <textarea name="message" required></textarea>
+								      </p>
+								      <p>
+								        <button
+								        class="g-recaptcha"
+								        type="submit"
+								        data-sitekey="<?php echo $siteKey ?>"
+								        data-callback='onRecaptchaSuccess'
+								        >
+								          Submit
+								        </button>
+								      </p>
+								    </form>
+								
+								    <script>
+								    function onRecaptchaSuccess() {
+								      document.getElementById('contact-form').submit();
+								    }
+								    </script>
+<!-- 								<form method="post" action="mailto:morris.kirsten.d@gmail.com">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
@@ -158,7 +192,7 @@
 										<li><input type="submit" value="Send Message" class="primary" /></li>
 										<li><input type="reset" value="Clear" /></li>
 									</ul>
-								</form>
+								</form> -->
 							</section>
 							<section class="split">
 								<section>
