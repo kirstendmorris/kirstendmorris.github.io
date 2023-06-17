@@ -80,7 +80,7 @@ function sanitizeInput($input) {
 
 ?>
 
-<html>
+<!-- <html>
   <body>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <form action="/"method="post" id="contact-form">
@@ -118,3 +118,4 @@ function sanitizeInput($input) {
     </script>
   </body>
 </html>
+ -->
