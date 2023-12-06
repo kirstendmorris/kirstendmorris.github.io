@@ -3260,8 +3260,8 @@ input, select, textarea {
 		}
 
 			#header.alt.style1 .logo strong {
-				/* <!-- color: #6fc3df; --> */
-				color: rgba(111,195,223,.1);
+				color: #6fc3df;
+				/* color: rgba(111,195,223,.1); */
 			}
 
 			#header.alt.style2 .logo strong {
