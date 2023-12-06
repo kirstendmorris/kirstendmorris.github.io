@@ -3489,11 +3489,12 @@ input, select, textarea {
 		}
 
 			#banner.major.alt {
-				opacity: 0.25;
+				opacity: 0.75;
 			}
 
 		#banner.style1:after {
-			background-color: #6fc3df;
+			/* background-color: #6fc3df; */
+			background-color: rgba(111,195,222,0.25);
 		}
 
 		#banner.style2:after {
