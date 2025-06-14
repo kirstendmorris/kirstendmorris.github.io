@@ -100,7 +100,7 @@ input, select, textarea {
 
 	body {
 		background: #EBE1D8;
-/* 		background: #242943; */
+/* 		background: #EBE1D8; */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2136,7 +2136,7 @@ input, select, textarea {
 		.icon.alt:before {
 			background-color: #ffffff;
 			border-radius: 100%;
-			color: #242943;
+			color: #EBE1D8;
 			display: inline-block;
 			height: 2em;
 			line-height: 2em;
@@ -2675,7 +2675,7 @@ input, select, textarea {
 		.button.primary {
 			background-color: #ffffff;
 			box-shadow: none;
-			color: #242943;
+			color: #EBE1D8;
 		}
 
 			input[type="submit"].primary:hover, input[type="submit"].primary:active,
@@ -2688,7 +2688,7 @@ input, select, textarea {
 			.button.primary:hover,
 			.button.primary:active {
 				background-color: #9bf1ff;
-				color: #242943 !important;
+				color: #EBE1D8 !important;
 			}
 
 			input[type="submit"].primary:active,
