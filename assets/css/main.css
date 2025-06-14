@@ -3147,7 +3147,7 @@ input, select, textarea {
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				background-color: #ffffff;
-				color: #242943;
+				color: #EBE1D8;
 				display: inline-block;
 				line-height: 1.65em;
 				margin-right: 0.325em;
@@ -3413,7 +3413,7 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background-color: #242943;
+			background-color: #EBE1D8;
 			content: '';
 			display: block;
 			height: 100%;
