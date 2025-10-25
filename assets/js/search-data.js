@@ -440,16 +440,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+            },},{id: "news-phd-defense",
+          title: 'PhD Defense',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+              window.location.href = "/news/Defense/";
+            },},{id: "news-our-paper-effect-of-redundancy-on-syndrome-based-decoding-for-qldpc-codes-is-now-available",
+          title: 'Our paper, Effect of redundancy on syndrome-based decoding for QLDPC codes is now...',
+          description: "",
+          section: "News",},{id: "news-i-ve-started-a-new-position-at-virginia-tech",
+          title: 'I’ve started a new position at Virginia Tech!',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
