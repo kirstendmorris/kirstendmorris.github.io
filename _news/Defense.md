@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PhD Defense
-date: July 2, 2025 16:11:00-0400
+date: 2025-07-02
 inline: false
 related_posts: false
 ---
