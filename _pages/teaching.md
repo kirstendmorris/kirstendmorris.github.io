@@ -1,12 +1,31 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description: 
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+#Instructor of Record 
 
-Organize your courses by years, topics, or universities, however you like!
+## Virginia Tech 
+**Math 2114 -- Linear Algebra ** 
+
+## University of Nebraska-Lincoln 
+**Math 100A --Intermediate Algebra** 
+
+##University of Georgia
+**Calculus 1** (3 semesters)
+
+**Precalculus** (1 semester) 
+
+#Teaching Assistant
+
+##University of Nebraska-Lincoln 
+
+**ECEN 498 -- Quantum Programming for STEM**
+
+
+**Math 814T -- Linear Algebra for High School Teachers**
+
