@@ -5,28 +5,56 @@
     "image": "",
     "email": "kdmorris@vt.edu",
     "url": "https://kirstendmorris.github.io/",
+    "summary": "",
     "location": {
+      "address": "",
+      "postalCode": "",
       "city": "Blacksburg",
       "countryCode": "US",
       "region": "Virginia"
     },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "AlbertEinstein",
+        "url": "https://twitter.com/AlbertEinstein"
+      }
+    ]
+  },
   "work": [
     {
       "name": "Virginia Tech",
       "position": "Postdoctoral Scholar",
       "url": "https://math.vt.edu/people/faculty/morris-kirsten.html",
       "startDate": "2025-08-10",
+      "endDate": "",
+      "summary": "",
+      "highlights": [""]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "People's Climate March",
+      "location": "Zurich, Switzerland",
+      "position": "Lead Organizer",
+      "url": "https://example.com",
+      "startDate": "2014-04-01",
+      "endDate": "2015-07-01",
+      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
     }
   ],
   "education": [
     {
       "institution": "University of Nebraska-Lincoln",
-      "location": "Lincoln, Nebraska, USA",
-      "url": "https://math.unl.edu/",
-      "area": "Coding Theory-Quantum Low Density Parity Check Codes",
+      "location": "Zurich, Switzerland",
+      "url": "https://www.uzh.ch/",
+      "area": "Software Development",
       "studyType": "PhD",
-      "startDate": "2021",
-      "endDate": "2025",
+      "startDate": "1905-01-01",
+      "endDate": "1905-01-01",
+      "score": "10",
+      "courses": ["Theory of Relativity"]
     }
   ],
   "awards": [
@@ -134,7 +162,7 @@
   ],
   "interests": [
     {
-      "name": "Quilting",
+      "name": "Physics",
       "icon": "fa-solid fa-tag",
       "keywords": [
         "Quantum Mechanics",
@@ -144,10 +172,28 @@
         "Quantum Communication",
         "Quantum Teleportation"
       ]
-    },
-    {
-      "name": "Puppy Raising Future Service Dogs",
-      "icon": "fa-solid fa-tag",
     }
   ],
+  "references": [
+    {
+      "name": "Professor John Doe",
+      "icon": "fa-solid fa-laptop",
+      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+    },
+    {
+      "name": "Professor John Doe",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Quantum Computing",
+      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
+      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
+      "startDate": "2018-01-01",
+      "endDate": "2018-01-01",
+      "url": "https://example.com"
+    }
+  ]
 }
