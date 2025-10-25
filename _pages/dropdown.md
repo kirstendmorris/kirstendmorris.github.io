@@ -1,13 +1,13 @@
 ---
 layout: page
-title: submenus
+title: Submenus
 nav: true
 nav_order: 8
 dropdown: true
 children:
-  - title: bookshelf
+  - title: Photos
     permalink: /books/
   - title: divider
-  - title: blog
+  - title: Quilting
     permalink: /blog/
 ---
