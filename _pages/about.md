@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://math.vt.edu/'>Department of Mathematics, Virginia Tech, USA</a>
 
