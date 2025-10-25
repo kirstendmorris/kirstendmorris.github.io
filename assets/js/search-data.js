@@ -445,11 +445,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/Defense/";
-            },},{id: "news-our-paper-effect-of-redundancy-on-syndrome-based-decoding-for-qldpc-codes-is-now-available",
-          title: 'Our paper, Effect of redundancy on syndrome-based decoding for QLDPC codes is now...',
-          description: "",
-          section: "News",},{id: "news-i-ve-started-a-new-position-at-virginia-tech",
+            },},{id: "news-i-ve-started-a-new-position-at-virginia-tech",
           title: 'I’ve started a new position at Virginia Tech!',
+          description: "",
+          section: "News",},{id: "news-our-paper-effect-of-redundancy-on-syndrome-based-decoding-for-qldpc-codes-is-now-available",
+          title: 'Our paper, Effect of redundancy on syndrome-based decoding for QLDPC codes is now...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
