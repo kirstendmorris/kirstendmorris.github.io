@@ -42,7 +42,7 @@
   contents:
     - title: Postdoc
       institution: Virginia Tech
-      year: 2025-Present
+      year: 2025-
       #description:
       #  - Description 1.
       #  - Description 2.
@@ -57,12 +57,12 @@
     #    - Description 1.
     #    - Description 2.
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
@@ -70,9 +70,6 @@
     - year: 2021-2025
       items:
         - Graduate Fellowship for STEM Diversity
-    - year: 2029
-      items:
-        - Max Planck Medal
 
 - title: Academic Interests
   type: nested_list
@@ -91,4 +88,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Quilting, Garment Sewing, Puppy Raising Future Service Dogs.
+    - <u>Hobbies:</u> Quilting, Garment Sewing.
