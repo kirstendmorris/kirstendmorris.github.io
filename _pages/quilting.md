@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /blog/
-title: Gallery
+permalink: /quilting/
+title: Quilting
 nav: true
 nav_order: 1
 pagination:

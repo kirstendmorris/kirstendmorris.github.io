@@ -5,9 +5,9 @@ nav: true
 nav_order: 8
 dropdown: true
 children:
-  - title: Photos
-    permalink: /books/
+  - title: Gallery
+    permalink: /gallery/
   - title: divider
   - title: Quilting
-    permalink: /blog/
+    permalink: /quilting/
 ---
