@@ -9,21 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-gallery",
-          title: "Gallery",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/gallery/index.html";
-          },
-        },{id: "nav-quilting",
-          title: "Quilting",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/quilting/index.html";
-          },
-        },{id: "nav-publications",
+  },{id: "nav-publications",
           title: "Publications",
           description: "publications by reversed chronological order",
           section: "Navigation",
