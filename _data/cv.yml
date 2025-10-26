@@ -1,8 +1,8 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Kirsten
+    - name: Name
+      value: Kirsten Morris
     #- name: Date of Birth
     #  value: 14th March 1879
     - name: Languages
