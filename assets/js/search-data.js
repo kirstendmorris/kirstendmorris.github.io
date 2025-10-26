@@ -9,7 +9,21 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
+  },{id: "nav-gallery",
+          title: "Gallery",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/gallery/index.html";
+          },
+        },{id: "nav-quilting",
+          title: "Quilting",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/quilting/index.html";
+          },
+        },{id: "nav-publications",
           title: "Publications",
           description: "publications by reversed chronological order",
           section: "Navigation",
@@ -30,19 +44,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "dropdown-photos",
-              title: "Photos",
+        },{id: "dropdown-gallery",
+              title: "Gallery",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/books/";
+                window.location.href = "/gallery/";
               },
             },{id: "dropdown-quilting",
               title: "Quilting",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/blog/";
+                window.location.href = "/quilting/";
               },
             },{id: "post-a-post-with-plotly-js",
         
