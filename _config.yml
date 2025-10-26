@@ -178,8 +178,6 @@ exclude:
   - _pages/repositories.md
   - _pages/profiles.md
   - _pages/submenus.md
-  - _pages/gallery.md
-  - _pages/quilting.md
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md

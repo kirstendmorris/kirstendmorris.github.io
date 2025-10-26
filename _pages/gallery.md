@@ -2,7 +2,7 @@
 layout: default
 permalink: /gallery/
 title: Gallery
-nav: true
+nav: false
 nav_order: 1
 pagination:
   enabled: true
