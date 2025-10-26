@@ -91,6 +91,24 @@ blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
+# -----------------------------------------------------------------------------
+# Gallery
+# -----------------------------------------------------------------------------
+
+gallery_name: Gallery # blog_name will be displayed in your blog page
+gallery_description: a simple whitespace theme for gallery
+permalink: /gallery/:year/:title/
+lsi: false # produce an index for related posts
+
+# -----------------------------------------------------------------------------
+# Quilting
+# -----------------------------------------------------------------------------
+
+quilting_name: Quilting # blog_name will be displayed in your blog page
+quilting_description: a simple whitespace theme for quilting
+permalink: /quilting/:year/:title/
+lsi: false # produce an index for related posts
+
 # Pagination
 pagination:
   enabled: true
