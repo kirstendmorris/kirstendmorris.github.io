@@ -87,7 +87,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_description: a simple whitespace theme
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -97,8 +97,8 @@ lsi: false # produce an index for related posts
 
 gallery_name: Gallery # blog_name will be displayed in your blog page
 gallery_description: a simple whitespace theme for gallery
-permalink: /gallery/:year/:title/
-lsi: false # produce an index for related posts
+#permalink: /gallery/:year/:title/
+#lsi: false # produce an index for related posts
 
 # -----------------------------------------------------------------------------
 # Quilting
@@ -106,8 +106,8 @@ lsi: false # produce an index for related posts
 
 quilting_name: Quilting # blog_name will be displayed in your blog page
 quilting_description: a simple whitespace theme for quilting
-permalink: /quilting/:year/:title/
-lsi: false # produce an index for related posts
+#permalink: /quilting/:year/:title/
+#lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
