@@ -28,4 +28,6 @@ latest_posts:
 
 Welcome! My name is Kirsten Morris, and I am a postdoctoral scholar in the Department of Mathematics at Virginia Tech, under the mentorship of [Dr. Gretchen Matthews](https://personal.math.vt.edu/gmatthews/). I graduated with a PhD in mathematics and minor in electrical engineering from the [University of Nebraska-Lincoln](https://math.unl.edu/), under the advisement of [Dr. Christine Kelley](https://math.unl.edu/person/christine-kelley/) and [Dr. Tefjol Pllaha](https://pllahat.github.io/).
 
+Together with Andrea Di Giusto and Julia Shapiro, I co-organize the [Postgraduate International Coding theory Seminar (PICS)](https://sites.google.com/view/picseminar/home). Come join us!
+
 ![icon](/assets/img/construction.png) This site is still under construction. 
