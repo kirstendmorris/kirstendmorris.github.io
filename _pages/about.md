@@ -1,4 +1,3 @@
-<script defer src="https://cloud.umami.is/script.js" data-website-id="9adba375-b6f3-4fb7-a7e1-2c1a8113861b"></script>
 ---
 layout: about
 title: About
