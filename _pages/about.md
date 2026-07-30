@@ -6,7 +6,7 @@ subtitle: <a href='https://math.vt.edu/'>Department of Mathematics, Virginia Tec
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: kirsten_morris_headshot.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>McBryde 475</p>
