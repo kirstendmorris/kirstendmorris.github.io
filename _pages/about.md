@@ -26,8 +26,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome! My name is Kirsten Morris, and I am a postdoctoral associate in the Department of Mathematics at Virginia Tech, under the mentorship of [Dr. Gretchen Matthews](https://personal.math.vt.edu/gmatthews/). I graduated with a PhD in mathematics and minor in electrical engineering from the [University of Nebraska-Lincoln](https://math.unl.edu/), under the advisement of [Dr. Christine Kelley](https://math.unl.edu/person/christine-kelley/) and [Dr. Tefjol Pllaha](https://pllahat.github.io/).
+Welcome! I am a postdoctoral associate in the Department of Mathematics at Virginia Tech, working with [Dr. Gretchen Matthews](https://personal.math.vt.edu/gmatthews/). My research is in algebraic and combinatorial coding theory, with quantum error correction as its unifying theme.
 
-Together with Andrea Di Giusto and Julia Shapiro, I co-organize the [Postgraduate International Coding theory Seminar (PICS)](https://sites.google.com/view/picseminar/home). Come join us!
+Sparse codes are decoded by local message passing on a graph, and at realistic lengths their performance is governed by finite structures like short cycles, expansion, and small configurations such as absorbing sets. I study which of these structures cause decoders to fail, how to mathematically characterize when a decoder will converge, and how to build quantum LDPC codes whose good structure can be read off a compact algebraic description. The tools I use are graph theory, linear algebra over finite fields, group algebras and matroids. Applications for my work include fault-tolerant quantum computing, wireless communication and post-quantum cryptography.
+
+I received my PhD in mathematics, with a graduate minor in electrical engineering, from the University of Nebraska–Lincoln in 2025, advised by [Dr. Christine Kelley](https://math.unl.edu/person/christine-kelley/). I am an MAA Project NExT Fellow. Together with Andrea Di Giusto and Julia Shapiro, I co-organize the [Postgraduate International Coding theory Seminar (PICS)](https://sites.google.com/view/picseminar/home). Come join us!
+
+
+
 
 <!-- ![icon](/assets/img/construction.png) This site is still under construction. -->
