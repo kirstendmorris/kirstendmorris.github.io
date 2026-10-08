@@ -30,4 +30,4 @@ Welcome! My name is Kirsten Morris, and I am a postdoctoral associate in the Dep
 
 Together with Andrea Di Giusto and Julia Shapiro, I co-organize the [Postgraduate International Coding theory Seminar (PICS)](https://sites.google.com/view/picseminar/home). Come join us!
 
-![icon](/assets/img/construction.png) This site is still under construction. 
+<!-- ![icon](/assets/img/construction.png) This site is still under construction. -->
