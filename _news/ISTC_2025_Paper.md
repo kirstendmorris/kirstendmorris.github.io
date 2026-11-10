@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper, [Effect of redundancy on syndrome-based decoding for QLDPC codes ](https://ieeexplore.ieee.org/document/11154620?denied=) is now available. 
+Our paper, [Effect of redundancy on syndrome-based decoding for QLDPC codes](https://doi.org/10.1109/ISTC65386.2025.11154620), is now available, and I presented it at the International Symposium on Topics in Coding (ISTC 2025) at UCLA.
