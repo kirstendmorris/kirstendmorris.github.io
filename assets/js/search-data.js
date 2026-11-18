@@ -507,8 +507,8 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "trips-2026-09-banff",
-          title: '2026 09 Banff',
+            },},{id: "trips-banff-canada",
+          title: 'Banff, Canada',
           description: "",
           section: "Trips",handler: () => {
               window.location.href = "/travel/2026-09-banff/";
