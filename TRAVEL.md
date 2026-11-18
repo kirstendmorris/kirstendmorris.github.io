@@ -24,6 +24,7 @@ It needs Pillow (`pip install pillow`); for iPhone `.HEIC` photos also `pip inst
 
 ```yaml
 ---
+title: Mexico # browser tab title
 place: Mexico # shown on the cover as "Mexico · Oct 2026"
 date: 2026-10-20 # gives the month shown and the order of trips
 cover: tlaxcala.jpg # optional; defaults to the first photo

@@ -114,6 +114,7 @@ def main():
         place = args.place or trip.replace("-", " ").title()
         text = (
             "---\n"
+            f"title: {place}\n"
             f"place: {place}\n"
             f"date: {date}\n"
             "# cover: <file name>   # optional; defaults to the first photo\n"
