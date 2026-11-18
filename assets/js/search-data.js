@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/news/";
           },
+        },{id: "nav-travel",
+          title: "Travel",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/travel/";
+          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -500,6 +507,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "trips-2026-09-banff",
+          title: '2026 09 Banff',
+          description: "",
+          section: "Trips",handler: () => {
+              window.location.href = "/travel/2026-09-banff/";
             },},{
         id: 'social-email',
         title: 'email',
