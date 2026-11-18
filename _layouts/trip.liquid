@@ -1,0 +1,101 @@
+---
+layout: default
+---
+{% assign folder = page.folder | default: page.slug %}
+<div class="post travel-trip">
+  <header class="post-header travel-header">
+    <a class="travel-back" href="{{ '/travel/' | relative_url }}">&larr; All trips</a>
+    <h1 class="post-title travel-title">
+      <span class="travel-place">{{ page.place }}</span>
+      <span class="travel-dot">·</span>
+      <span class="travel-when">
+        {%- if page.when %}{{ page.when }}{% else %}{{ page.date | date: '%b %Y' }}{% endif -%}
+      </span>
+    </h1>
+  </header>
+
+  <div class="travel-wall">
+    {% for p in page.photos %}
+      {% assign w = p.w | default: 3 %}
+      {% assign h = p.h | default: 2 %}
+      <figure
+        class="travel-photo"
+        style="--w: {{ w }}; --h: {{ h }};"
+        tabindex="0"
+        role="button"
+        aria-pressed="false"
+        {% if p.caption %}
+          aria-label="Show caption"
+        {% else %}
+          aria-label="Photo"
+        {% endif %}
+      >
+        <img
+          src="{{ '/assets/img/travel/' | append: folder | append: '/' | append: p.file | relative_url }}"
+          width="{{ w }}"
+          height="{{ h }}"
+          alt="{{ p.caption | default: page.place | strip_html | escape }}"
+          loading="lazy"
+        >
+        {% if p.caption %}
+          <figcaption>{{ p.caption | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>
+        {% endif %}
+      </figure>
+    {% endfor %}
+  </div>
+
+  {{ content }}
+</div>
+
+<script>
+  (function () {
+    var wall = document.querySelector('.travel-wall');
+    if (!wall) return;
+    var photos = wall.querySelectorAll('.travel-photo');
+
+    function setActive(fig, on) {
+      fig.classList.toggle('is-active', on);
+      fig.setAttribute('aria-pressed', on ? 'true' : 'false');
+    }
+    function closeAll(except) {
+      photos.forEach(function (f) {
+        if (f !== except) setActive(f, false);
+      });
+    }
+    function toggle(fig) {
+      var on = !fig.classList.contains('is-active');
+      closeAll(fig);
+      setActive(fig, on);
+    }
+
+    photos.forEach(function (fig) {
+      // If the size in the trip file was missing, take it from the image once it loads.
+      var img = fig.querySelector('img');
+      function useNaturalSize() {
+        if (img.naturalWidth && img.naturalHeight) {
+          fig.style.setProperty('--w', img.naturalWidth);
+          fig.style.setProperty('--h', img.naturalHeight);
+        }
+      }
+      if (img.complete) useNaturalSize();
+      img.addEventListener('load', useNaturalSize);
+      fig.addEventListener('click', function (e) {
+        if (e.target.closest('a')) return; // let links inside captions work
+        toggle(fig);
+      });
+      fig.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          toggle(fig);
+        }
+      });
+    });
+
+    document.addEventListener('click', function (e) {
+      if (!e.target.closest('.travel-photo')) closeAll(null);
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') closeAll(null);
+    });
+  })();
+</script>

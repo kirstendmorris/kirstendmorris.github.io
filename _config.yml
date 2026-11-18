@@ -48,7 +48,7 @@ repo_trophies:
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
+search_enabled: false
 socials_in_search: true
 posts_in_search: true
 bib_search: true
@@ -171,6 +171,9 @@ collections:
     output: true
   projects:
     output: true
+  trips:
+    output: true
+    permalink: /travel/:name/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -217,6 +220,7 @@ exclude:
   - purgecss.config.js
   - README.md
   - readme_preview/
+  - TRAVEL.md
   - vendor
 keep_files:
   - CNAME
@@ -248,6 +252,11 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  - scope:
+      path: ""
+      type: trips
+    values:
+      layout: trip
 
 sass:
   style: compressed

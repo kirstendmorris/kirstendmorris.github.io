@@ -1,0 +1,43 @@
+{% comment %}
+  Travel landing page: one cover photo per trip, newest first, in a
+  Pinterest-style masonry grid. Each trip lives in _trips/ (see _trips/README.md).
+{% endcomment %}
+{% assign trips = site.trips | sort: 'date' | reverse %}
+{% if trips.size > 0 %}
+  <div class="grid travel-covers">
+    {% for trip in trips %}
+      {% assign folder = trip.folder | default: trip.slug %}
+      {% assign cover = trip.cover | default: trip.photos[0].file %}
+      {% assign cw = 3 %}
+      {% assign ch = 2 %}
+      {% for p in trip.photos %}
+        {% if p.file == cover %}
+          {% assign cw = p.w | default: 3 %}
+          {% assign ch = p.h | default: 2 %}
+        {% endif %}
+      {% endfor %}
+      {% assign n = trip.photos | size %}
+      <a class="grid-item travel-cover" href="{{ trip.url | relative_url }}">
+        <img
+          src="{{ '/assets/img/travel/' | append: folder | append: '/' | append: cover | relative_url }}"
+          width="{{ cw }}"
+          height="{{ ch }}"
+          alt="{{ trip.place }}"
+          loading="lazy"
+        >
+        <span class="travel-cover-label">
+          <span class="travel-place">{{ trip.place }}</span>
+          <span class="travel-dot">·</span>
+          <span class="travel-when">
+            {%- if trip.when %}{{ trip.when }}{% else %}{{ trip.date | date: '%b %Y' }}{% endif -%}
+          </span>
+        </span>
+        <span class="travel-cover-count">
+          {{- n }} photo{% if n != 1 %}s{% endif %} &rarr;</span
+        >
+      </a>
+    {% endfor %}
+  </div>
+{% else %}
+  <p>No trips yet.</p>
+{% endif %}
